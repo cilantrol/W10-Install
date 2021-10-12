@@ -4,6 +4,8 @@
 
 
 # first we have to update computer sleep settings to never turn off, hibernate, sleep, harddisk always on
+
+# to make this better, only set never time outs when plugged in to save battery life
 powercfg.exe -x -monitor-timeout-ac 0
 powercfg.exe -x -monitor-timeout-dc 0
 powercfg.exe -x -disk-timeout-ac 0
@@ -15,8 +17,8 @@ powercfg.exe -x -hibernate-timeout-dc 0
 
 # next we change computer name
 $cpuName = Read-Host "Please Enter Computer Name"
-echo $cpuName
-echo "Renaming Computer Name"
+Write-Output $cpuName
+Write-Output "Renaming Computer Name"
 
 Rename-Computer -NewName $cpuName -DomainCredential Domain01\Admin01
 
