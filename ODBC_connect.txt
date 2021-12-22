@@ -1,0 +1,18 @@
+using System.Data.Odbc;
+var conn = new OdbcConnection();
+conn.ConnectionString = 
+              "Driver={GOLD\PILOT2};" + 
+              "Server=odbcvisual9p2;" + 
+              "DataBase=odbcvisual9p2;" + 
+              "Uid=sysadm;" + 
+              "Pwd=Pilot1;"; 
+conn.Open();
+
+// or
+var conn = new OdbcConnection();
+conn.ConnectionString = 
+              "Driver={GOLD\PILOT2};" + 
+              "Server=odbcvisual9p2;" + 
+              "DataBase=odbcvisual9p2e;" + 
+              "Trusted_Connection=Yes;"; 
+conn.Open();

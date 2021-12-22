@@ -54,14 +54,14 @@
 <PartitionID>2</PartitionID>
 </ModifyPartition>
 </ModifyPartitions>
-<DiskID>1</DiskID>
+<DiskID>0</DiskID>
 <WillWipeDisk>true</WillWipeDisk>
 </Disk>
 </DiskConfiguration>
 <ImageInstall>
 <OSImage>
 <InstallTo>
-<DiskID>1</DiskID>
+<DiskID>0</DiskID>
 <PartitionID>2</PartitionID>
 </InstallTo>
 <InstallToAvailablePartition>false</InstallToAvailablePartition>
@@ -70,7 +70,7 @@
 <UserData>
 <AcceptEula>true</AcceptEula>
 <FullName>admin</FullName>
-<Organization>vander-bend.org</Organization>
+<Organization></Organization>
 <ProductKey>
 <Key>W269N-WFGWX-YVC9B-4J6C9-T83GX</Key>
 </ProductKey>
@@ -109,14 +109,14 @@
 <PartitionID>2</PartitionID>
 </ModifyPartition>
 </ModifyPartitions>
-<DiskID>1</DiskID>
+<DiskID>0</DiskID>
 <WillWipeDisk>true</WillWipeDisk>
 </Disk>
 </DiskConfiguration>
 <ImageInstall>
 <OSImage>
 <InstallTo>
-<DiskID>1</DiskID>
+<DiskID>0</DiskID>
 <PartitionID>2</PartitionID>
 </InstallTo>
 <InstallToAvailablePartition>false</InstallToAvailablePartition>
@@ -125,7 +125,7 @@
 <UserData>
 <AcceptEula>true</AcceptEula>
 <FullName>admin</FullName>
-<Organization>vander-bend.org</Organization>
+<Organization></Organization>
 <ProductKey>
 <Key>W269N-WFGWX-YVC9B-4J6C9-T83GX</Key>
 </ProductKey>
@@ -195,7 +195,7 @@
 <Value>uranium.l23</Value>
 <PlainText>true</PlainText>
 </Password>
-<Enabled>true</Enabled>
+<Enabled>false</Enabled>
 <Username>admin</Username>
 </AutoLogon>
 <OOBE>
@@ -203,7 +203,7 @@
 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
 <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
 <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-<NetworkLocation>Home</NetworkLocation>
+<NetworkLocation>Work</NetworkLocation>
 <SkipUserOOBE>true</SkipUserOOBE>
 <SkipMachineOOBE>true</SkipMachineOOBE>
 <ProtectYourPC>1</ProtectYourPC>
@@ -222,7 +222,7 @@
 </LocalAccount>
 </LocalAccounts>
 </UserAccounts>
-<RegisteredOrganization>vander-bend.org</RegisteredOrganization>
+<RegisteredOrganization></RegisteredOrganization>
 <RegisteredOwner>admin</RegisteredOwner>
 <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
 <FirstLogonCommands>
@@ -253,7 +253,7 @@
 <Value>uranium.l23</Value>
 <PlainText>true</PlainText>
 </Password>
-<Enabled>true</Enabled>
+<Enabled>false</Enabled>
 <Username>admin</Username>
 </AutoLogon>
 <OOBE>
@@ -261,7 +261,7 @@
 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
 <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
 <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-<NetworkLocation>Home</NetworkLocation>
+<NetworkLocation>Work</NetworkLocation>
 <SkipUserOOBE>true</SkipUserOOBE>
 <SkipMachineOOBE>true</SkipMachineOOBE>
 <ProtectYourPC>1</ProtectYourPC>
@@ -280,7 +280,7 @@
 </LocalAccount>
 </LocalAccounts>
 </UserAccounts>
-<RegisteredOrganization>vander-bend.org</RegisteredOrganization>
+<RegisteredOrganization></RegisteredOrganization>
 <RegisteredOwner>admin</RegisteredOwner>
 <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
 <FirstLogonCommands>
